@@ -11,6 +11,7 @@ RUN apk --update add \
   php-pdo_pgsql \
   php-opcache \
   php-iconv \
+  php-openssl \
   supervisor
 
 RUN mkdir -p /etc/nginx
