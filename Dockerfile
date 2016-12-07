@@ -6,6 +6,7 @@ RUN apk --update add \
   php-pgsql \
   php-fpm \
   php-pdo \
+  php-ctype \
   php-json \
   php-openssl \
   php-pdo_pgsql \
